@@ -1,0 +1,24 @@
+.nav {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: -50%;
+  transition: 0.5s;
+  font-size: 28px;
+  color: #6fb3b8;
+  background-color: #c2edce;
+}
+
+.nav.active {
+  left: 0;
+}
+
+.nav__list-item {
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
+}

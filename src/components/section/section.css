@@ -1,0 +1,9 @@
+.section {
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6fb3b8;
+  font-weight: 700;
+  font-size: 36px;
+}
