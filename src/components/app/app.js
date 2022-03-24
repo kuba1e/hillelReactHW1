@@ -16,13 +16,13 @@ export default class App extends Component {
 
   render(){
     return(
-      <>
+      <Fragment>
         <Header isNavOpen ={this.state.isNavOpen} onBurgerClick = {this.onBurgerClick}/>
         <div className="container">
         <SideBar isNavOpen={this.state.isNavOpen}/>
         <Section/>
         </div>
-      </>
+      <Fragment/>
     ) 
   }
 }
