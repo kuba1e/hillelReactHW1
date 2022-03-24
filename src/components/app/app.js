@@ -22,7 +22,7 @@ export default class App extends Component {
         <SideBar isNavOpen={this.state.isNavOpen}/>
         <Section/>
         </div>
-      <Fragment/>
+      </Fragment>
     ) 
   }
 }
